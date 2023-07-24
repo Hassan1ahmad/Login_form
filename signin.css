@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    text-align: center;
+    background-color: lightgray;
+}
+h1{
+    color: white;
+}
+.formdata{
+    margin: auto;
+    max-width: 400px;
+    background-color: #13232f	;
+    padding: 19px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+a{
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    padding: 15px 60px;
+    background-color: darkgrey;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+
+}
+a:hover{
+    background-color: darkgreen;
+}
+.in{
+    background-color: lightgreen;
+}
+input[type=email],
+input[type=password]
+{ 
+    width: 98%;
+    padding: 10px;
+    margin: 20px 5px 20px 5px;
+    float: left;
+    overflow: hidden;
+    background-color: #13232f;
+    border: 2px solid white; 
+}
+input[type=email]::placeholder,input[type=password]::placeholder,input[type=text]::placeholder
+{
+    color: white;
+}
+input[type=text]{
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    width: 98%;
+    background-color: inherit;
+    border: 2px solid white;
+}
+.toprow{
+display: flex;
+}
+input[type=submit]{
+    background-color: aqua;
+    padding: 10px;
+    width: 98%;
+    font-weight: 700;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.8px;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(68, 180, 180) ;
+    color: tomato;
+}
+
